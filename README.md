@@ -1,50 +1,50 @@
 # 📊 Netflix EDA Project
 
-This repository contains an Exploratory Data Analysis (EDA) on a Netflix dataset. The aim is to uncover insights into the content available on Netflix, identify trends, clean the data for further use, and visualize key metrics such as genre distribution, release patterns, and popularity of content.
+This repository contains an Exploratory Data Analysis (EDA) on a Netflix dataset. The objective of this project is to uncover insights into Netflix content, identify trends, clean the data for future use, and visualize key metrics like genre distribution, release patterns, and content popularity.
 
 ---
 
 ## 🔍 Project Overview
 
-- **Dataset Shape**: 9827 rows × 9 columns
-- **Objective**: Perform EDA to understand patterns and clean the dataset for future modeling or dashboarding.
-- **Key Steps Covered**:
-  - Data Cleaning & Preprocessing
-  - Handling Duplicates & Missing Values
-  - Outlier Detection (Popularity)
-  - Feature Engineering on Date and Genre Columns
-  - Visual Analysis using Seaborn and Matplotlib
+**Dataset Shape:** 9827 rows × 9 columns  
+**Objective:** Perform EDA to understand patterns and clean the dataset for future modeling or dashboarding.
 
 ---
 
-## 🧹 Data Cleaning Highlights
+## Key Steps Covered:
+- **Data Cleaning & Preprocessing**
+  - Handling duplicates and missing values.
+  - Outlier detection (particularly in popularity).
+  - Feature engineering on date and genre columns.
 
-- Converted `release_date` to `datetime` for year extraction
-- Dropped irrelevant columns: `overview`, `original_language`, `poster_url`
-- Cleaned `genre` column (comma-separated values with wide spacing)
-- Checked for and removed duplicates
-- Handled outliers in the `popularity` column
-
----
-
-## 📊 Visual Insights
-
-- Year-wise content distribution
-- Genre frequency & popularity trends
-- Popularity analysis and outlier behavior
-- Content production trends over the years
+- **Visual Analysis:**
+  - Visualizing key metrics such as genre distribution, popularity trends, and production over time.
 
 ---
 
-## 📁 Files Included
-
-- `Netflix EDA .ipynb`: The complete Jupyter Notebook with code, output, and visualizations.
-- `README.md`: This documentation file.
+## 🧹 Data Cleaning Highlights:
+- **Date Handling:** Converted `release_date` to a datetime format for year extraction.
+- **Column Cleaning:** Dropped irrelevant columns like `overview`, `original_language`, and `poster_url`.
+- **Genre Column:** Cleaned up genre column (comma-separated values with extra spaces).
+- **Duplicates & Outliers:** Checked for and removed duplicates, handled outliers in the popularity column.
 
 ---
 
-## 🛠️ Tools Used
+## 📊 Visual Insights:
+- **Year-wise Content Distribution:** Trends in Netflix content over the years.
+- **Genre Frequency & Popularity Trends:** Analysis of which genres are most frequent and how their popularity evolves.
+- **Popularity Analysis & Outliers:** Investigating the impact of outliers on content popularity.
+- **Content Production Trends:** How content production has evolved over time.
 
+---
+
+## 📁 Files Included:
+- **Netflix EDA .ipynb:** Complete Jupyter Notebook with code, output, and visualizations.
+- **README.md:** Documentation file (this one).
+
+---
+
+## 🛠️ Tools Used:
 - Python
 - Pandas
 - NumPy
@@ -53,33 +53,37 @@ This repository contains an Exploratory Data Analysis (EDA) on a Netflix dataset
 
 ---
 
-## 💡 Key Learnings
-
-- Importance of preprocessing text-heavy and multi-category columns
-- Outlier handling and its impact on distribution-based visualizations
-- Creating visually meaningful plots to explain trends
-- Conclusion
-QI: What is the most frequent genre in the dataset?
-Drama genre is the most frequent genre in our dataset and has appeared more than 14% of the times among 19 other genres.
-Q2: What genres has highest votes?
-we have 25.5% of our dataset with popular vote (652e rows). Drama again gets the highest popularity among fans by being having more than 18.5% of movies popularities .
-Q3: What movie got the highest popularity? what's its genre?
-Spider-Man: No Way Home has the highest popularity rate in our dataset and it has genres of Action, Adventure and Sience Fiction.
-Q4: What movie got the lowest popularity? what's its genre?
-The united states, thread' has the highest lowest rate in our dataset and it has genres of music, drama,'war',' sci-fi.
-Q4: Which year has the most filmmed movies?'
-year 2021 has the highest filmming rate in our dataset.
+## 💡 Key Learnings:
+- **Preprocessing:** Importance of cleaning text-heavy and multi-category columns.
+- **Outlier Handling:** Impact on distribution-based visualizations.
+- **Visualization Techniques:** How to create visually meaningful plots that explain trends clearly.
 
 ---
 
-## 📬 Contact
+## Conclusion:
 
+1. **What is the most frequent genre in the dataset?**
+   - Drama is the most frequent genre, appearing in over 14% of the dataset.
+   
+2. **What genre has the highest number of votes?**
+   - Drama again dominates in popularity, accounting for more than 18.5% of the total popularity votes.
+
+3. **Which movie has the highest popularity?**
+   - *Spider-Man: No Way Home* holds the highest popularity, with genres including Action, Adventure, and Science Fiction.
+
+4. **Which movie has the lowest popularity?**
+   - *The United States vs. Billie Holiday* has the lowest popularity, with genres such as Music, Drama, War, and Sci-Fi.
+
+5. **Which year has the most films produced?**
+   - 2021 saw the highest number of movies produced in the dataset.
+
+---
+
+## 📬 Contact:
 For queries or collaboration, feel free to connect:
 
-- 📧 namanmittal3015@gmail.com
-- 🌐 [LinkedIn](https://www.linkedin.com/in/naman-mittal-73977b24a)
-- 📁 [Portfolio](https://my.newtonschool.co/user/namanmittal3015)
+- **Email:** namanmittal3015@gmail.com  
+- **LinkedIn:** [Naman Mittal LinkedIn](https://www.linkedin.com/in/naman-mittal-73977b24a/)  
+- **Portfolio:** [https://my.newtonschool.co/user/namanmittal3015](https://my.newtonschool.co/user/namanmittal3015)
 
----
-
-⭐ If you found this analysis helpful, consider giving a star to this repo!
+⭐ If you found this analysis helpful, consider giving a star to this repository!
